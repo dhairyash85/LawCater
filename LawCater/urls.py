@@ -20,4 +20,5 @@ from LawCater import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.index, name="home"),
+    path('lawyerlogin/', views.lawyerlogin, name="lawyerlogin")
 ]

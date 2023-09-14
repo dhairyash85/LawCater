@@ -1,0 +1,180 @@
+.login-lawyer-child {
+    position: absolute;
+    top: -35.5rem;
+    left: 0.03rem;
+    width: 86.2rem;
+    height: 109.28rem;
+    transform: rotate(18.1deg);
+    transform-origin: 0 0;
+    background-image: url(./public/rectangle1@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .forgot-password {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 37.08rem;
+    left: 85.17rem;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-lao-sans-pro);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    width: 17.33rem;
+    height: 2.5rem;
+  }
+  .forgot-password,
+  .login,
+  .sign-up {
+    position: absolute;
+  }
+  .sign-up {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    top: 46.8rem;
+    left: 90rem;
+    font-size: var(--font-size-8xl);
+    font-family: var(--font-lato);
+    color: var(--color-tan);
+    text-align: left;
+    display: inline-block;
+    width: 10.08rem;
+    height: 3.83rem;
+  }
+  .login {
+    margin: 0;
+    top: 7.75rem;
+    left: 75rem;
+    font-size: inherit;
+    font-weight: 400;
+    font-family: inherit;
+    color: #f5f5ef;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .frame-child {
+    position: absolute;
+    top: 14.96rem;
+    left: 78.2rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-top: 5px solid var(--color-white);
+    box-sizing: border-box;
+    width: 7.25rem;
+    height: 0.42rem;
+  }
+  .username-box-1 {
+    height: 6.75rem;
+    width: 34.58rem;
+    font-family: var(--font-lao-sans-pro);
+    font-size: var(--font-size-11xl);
+    top: 17.42rem;
+    border-radius: var(--br-xs);
+  }
+  .password-box-1,
+  .remember-me-check-box,
+  .username-box-1 {
+    border: 0;
+    background-color: var(--color-white);
+    position: absolute;
+    left: 63.67rem;
+    overflow: hidden;
+  }
+  .password-box-1 {
+    height: 6.75rem;
+    width: 34.58rem;
+    font-family: var(--font-lao-sans-pro);
+    font-size: var(--font-size-11xl);
+    top: 28rem;
+    border-radius: var(--br-xs);
+  }
+  .remember-me-check-box {
+    cursor: pointer;
+    padding: 0;
+    top: 36.58rem;
+    border-radius: var(--br-3xs);
+    width: 2.83rem;
+    height: 2.83rem;
+  }
+  .login1,
+  .remember-me {
+    position: absolute;
+    top: 37.08rem;
+    left: 68.08rem;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-lao-sans-pro);
+    display: inline-block;
+    width: 14.92rem;
+    height: 2.33rem;
+  }
+  .login1 {
+    top: 0.75rem;
+    left: 9.33rem;
+    font-size: var(--font-size-21xl);
+    font-family: var(--font-lato);
+    color: var(--color-black);
+    text-align: left;
+    width: 20.33rem;
+    height: 3rem;
+  }
+  .login-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: var(--color-white);
+    position: absolute;
+    top: 40rem;
+    left: 65.33rem;
+    border-radius: var(--br-26xl);
+    width: 29.83rem;
+    height: 5.67rem;
+    overflow: hidden;
+  }
+  .dont-have-an,
+  .welcome-back {
+    margin: 0;
+    position: absolute;
+    display: inline-block;
+  }
+  .welcome-back {
+    top: 15.67rem;
+    left: 3.42rem;
+    font-size: var(--font-size-91xl);
+    font-weight: 600;
+    font-family: inherit;
+    width: 50.5rem;
+    height: 22.42rem;
+  }
+  .dont-have-an {
+    top: 47.42rem;
+    left: 63.75rem;
+    font-size: var(--font-size-8xl);
+    font-weight: 400;
+    font-family: var(--font-lato);
+    width: 27.08rem;
+    height: 3.83rem;
+  }
+  .login-lawyer,
+  .login-parent {
+    height: 81.83rem;
+    overflow: hidden;
+  }
+  .login-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 126rem;
+    text-align: left;
+    font-size: var(--font-size-41xl);
+    color: var(--color-white);
+    font-family: var(--font-lexend);
+  }
+  .login-lawyer {
+    position: relative;
+    background: linear-gradient(#1f2839, #1f2839), #fff;
+    width: 100%;
+  }
+  
