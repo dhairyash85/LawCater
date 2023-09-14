@@ -1,0 +1,288 @@
+.a4-1-child,
+.a4-1-item {
+  position: absolute;
+  left: 0;
+  width: 98.75%;
+}
+.a4-1-child {
+  top: 1px;
+  background-color: #122540;
+  height: 110px;
+}
+.a4-1-item {
+  top: 111px;
+  height: 680px;
+  background-image: url(./background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.protect-your-rights {
+  font-weight: 600;
+}
+.blank-line,
+.protect-your-rights-today {
+  display: block;
+}
+.blank-line {
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+}
+.expert-legal-services-for-indi {
+  display: block;
+  font-size: var(--font-size-13xl);
+}
+.protect-your-rights-container {
+  margin: 0;
+  position: absolute;
+  top: 225px;
+  left: 3.75%;
+  display: inline-block;
+  width: 45.347%;
+  height: 293px;
+  font-size: 64px;
+  color: var(--color-saddlebrown);
+}
+.a4-1-inner,
+.sign-in {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  position: absolute;
+}
+.a4-1-inner {
+  background-color: #9b8346;
+  top: 558px;
+  left: 10.9%;
+  border-radius: var(--br-3xs);
+  width: 13.6%;
+  height: 55px;
+}
+.sign-in {
+  background-color: transparent;
+  top: 573px;
+  left: 12.5%;
+  font-size: var(--font-size-13xl);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 9.365;
+  height: 29px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 927px;
+  left: 4.44%;
+  background-color: #d9d9d9;
+  width: 1px;
+  height: 6px;
+}
+.rectangle-section {
+  position: absolute;
+  top: 789px;
+  left: 0;
+  background-color: #112740;
+  width: 98.75%;
+  height: 503px;
+}
+.lawcater-is-a-leading-law-firm {
+  display: block;
+  font-size: var(--font-size-xl);
+}
+.about-lawcater-lawcater-container {
+  margin: 0;
+  position: absolute;
+  top: 824px;
+  left: 2.361%;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  width: 55.97%;
+  height: 416px;
+}
+.rectangle-icon {
+  position: absolute;
+  top: 885px;
+  left: 59.65%;
+  width: 36.1%;
+  height: 308px;
+  object-fit: cover;
+}
+.a4-1-child1 {
+  position: absolute;
+  top: 1285px;
+  left: 0;
+  background-color: #a58b4a;
+  width: 98.75%;
+  height: 1449px;
+}
+.our-services {
+  position: absolute;
+  top: 1328px;
+  left: 33px;
+  font-size: 40px;
+  font-weight: 600;
+  display: inline-block;
+  width: 24.86%;
+  height: 84px;
+}
+.a4-1-child2,
+.a4-1-child3,
+.a4-1-child4 {
+  position: absolute;
+  top: 1440px;
+  left: 3.88%;
+  width: 24.3%;
+  height: 286px;
+  object-fit: cover;
+}
+.a4-1-child3,
+.a4-1-child4 {
+  left: 37.08%;
+  width: 23.4%;
+}
+.a4-1-child4 {
+  left: 69.375%;
+}
+.legal-advices-for {
+  margin: 0;
+  font-weight: 600;
+}
+.from-setting-up {
+  margin: 0;
+  font-size: var(--font-size-5xl);
+}
+.legal-advices-for-container,
+.personal-injury-claims-container {
+  position: absolute;
+  top: 1775px;
+  left: 4.44%;
+  display: inline-block;
+  width: 23.75%;
+  height: 342px;
+}
+.personal-injury-claims-container {
+  top: 1784px;
+  left: 34.93%;
+  width: 23.88%;
+  height: 245px;
+}
+.property-law-services {
+  margin: 0;
+}
+.property-law-services-container {
+  position: absolute;
+  top: 1775px;
+  left: 69%;
+  display: inline-block;
+  width: 23.26%;
+  height: 300px;
+}
+.a4-1-child5 {
+  position: absolute;
+  top: 2213px;
+  left: 8.958%;
+  border-radius: var(--br-3xs);
+  background: linear-gradient(180deg, #7f692e 6.25%, rgba(219, 190, 117, 0));
+  width: 78.68%;
+  height: 418px;
+}
+.lawcater-provided-exceptional {
+  margin: 0;
+  font-size: var(--font-size-13xl);
+  font-weight: 500;
+}
+.appointments,
+.contact-us,
+.lawcater-provided-exceptional-container,
+.log-in,
+.pricing {
+  position: absolute;
+  top: 2274px;
+  left: 13.4%;
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  width: 66.875%;
+  height: 325px;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-inter);
+}
+.appointments,
+.contact-us,
+.log-in,
+.pricing {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 38px;
+  left: 76.527%;
+  width: 10%;
+  height: 31px;
+}
+.appointments,
+.contact-us,
+.pricing {
+  top: 37px;
+  left: 67.15%;
+  width: 10.069%;
+  height: 28px;
+}
+.appointments,
+.contact-us {
+  left: 55.9%;
+  width: 9.51%;
+  height: 32px;
+}
+.appointments {
+  left: 42.77%;
+  width: 11.38%;
+  height: 38px;
+}
+.a4-1-child6 {
+  position: absolute;
+  top: 17px;
+  left: 2.36%;
+  width: 11.7%;
+  height: 168px;
+  object-fit: cover;
+}
+.a4-1-child7,
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 26px;
+  left: 86.52%;
+  width: 4%;
+  height: 55px;
+  background-image: url(./search.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.a4-1-child7 {
+  top: 33px;
+  left: 93.47%;
+  width: 3.47%;
+  height: 48px;
+  background-image: url(./menu.jpg);
+}
+.a4-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 2734px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-13xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
