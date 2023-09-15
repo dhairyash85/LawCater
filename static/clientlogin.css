@@ -1,0 +1,218 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-lexend: Lexend;
+  --font-ledger: Ledger;
+  --font-lalezar: Lalezar;
+  --font-inika: Inika;
+  --font-inter: Inter;
+  --font-lato: Lato;
+  --font-lao-sans-pro: "Lao Sans Pro";
+
+  /* font sizes */
+  --font-size-77xl: 96px;
+  --font-size-45xl: 64px;
+  --font-size-181xl: 200px;
+  --font-size-5xl: 24px;
+  --font-size-8xl: 27px;
+  --font-size-91xl: 110px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-41xl: 60px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-snow: #fffcfc;
+  --color-tan: #ac8c57;
+  --color-gainsboro: #d9d9d9;
+  --color-saddlebrown: #5b330f;
+
+  /* Border radiuses */
+  --br-56xl: 75px;
+  --br-181xl: 200px;
+  --br-131xl: 150px;
+  --br-xl: 20px;
+  --br-26xl: 45px;
+  --br-3xs: 10px;
+  --br-xs: 12px;
+}
+
+.login-client-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 68.3%;
+    height: 80%;
+    object-fit: cover;
+  }
+  .forgot-password1,
+  .sign-up3 {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 44.6%;
+    left: 72%;
+    font-size: 20px;
+    font-family: font-lao-sans-pro;
+    color: black;
+    text-align: left;
+    display: inline-block;
+    width: 21.94%;
+    height: 18px;
+  }
+  .sign-up3 {
+    top: 54.5%;
+    left: 69%;
+    font-size: 27px;
+    font-family: var(--font-lato);
+    width: 22.56%;
+    height: 46px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .login2 {
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 63%;
+    font-size: 64px;
+    font-weight: 400;
+    font-family: inherit;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .frame-item {
+    position: absolute;
+    top: 18%;
+    left: 62.8%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-top: 5px solid black;
+    box-sizing: border-box;
+    width: 10%;
+    height: 5px;
+  }
+  .username-box-11 {
+    height: 81px;
+    width: 23%;
+    font-family: var(--font-lao-sans-pro);
+    font-size: 30px;
+    top: 24%;
+    border-radius: 12px;
+  }
+  .password-box-11,
+  .remember-me-check-box1,
+  .username-box-11 {
+    border: 0;
+    background-color: white;
+    position: absolute;
+    left: 58%;
+    overflow: hidden;
+  }
+  .password-box-11 {
+    height: 81px;
+    width: 23%;
+    font-family: var(--font-lao-sans-pro);
+    font-size: 30px;
+    top: 34%;
+    border-radius: 12px;
+  }
+  .remember-me-check-box1 {
+    cursor: pointer;
+    padding: 0;
+    top: 44%;
+    border-radius: 10px;
+    width: 2.36%;
+    height: 34px;
+  }
+  .login3,
+  .remember-me1 {
+    position: absolute;
+    top: 44.5%;
+    left: 61%;
+    font-size: 20px;
+    font-family: var(--font-lao-sans-pro);
+    display: inline-block;
+    width: 19.3%;
+    height: 28px;
+  }
+  .login3 {
+    top: 9px;
+    left: 20%;
+    font-size: 40px;
+    font-family: var(--font-lato);
+    color: white;
+    text-align: left;
+    width: 3%;
+    height: 36px;
+  }
+  .login-container {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color:black;
+    position: absolute;
+    top: 48%;
+    left: 63%;
+    border-radius: 45px;
+    width: 15%;
+    height: 68px;
+    overflow: hidden;
+  }
+  .dont-have-an1,
+  .welcome-back1 {
+    margin: 0;
+    position: absolute;
+    color: var(--color-white);
+    display: inline-block;
+  }
+  .welcome-back1 {
+    top: 18%;
+    left: 2.847%;
+    font-size: 110px;
+    font-weight: 600;
+    font-family: inherit;
+    width: 42.08%;
+    height: 269px;
+  }
+  .dont-have-an1 {
+    top: 55.5%;
+    left: 58%;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: var(--font-lato);
+    width: 22.569%;
+    height: 46px;
+  }
+  .login-client,
+  .login-client-inner,
+  .login-group {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 105%;
+    height: 982px;
+    overflow: hidden;
+  }
+  .login-client-inner {
+    text-align: left;
+    font-size: 25px;
+    color: var(--color-black);
+    font-family: var(--font-lexend);
+  }
+  .login-client {
+    background: linear-gradient(#ac8c57, #ac8c57), #fff;
+  }
+  .client-login {
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+  

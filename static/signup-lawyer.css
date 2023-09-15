@@ -1,0 +1,338 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-lexend: Lexend;
+  --font-ledger: Ledger;
+  --font-lalezar: Lalezar;
+  --font-inter: Inter;
+  --font-inika: Inika;
+  --font-lato: Lato;
+  --font-lao-sans-pro: "Lao Sans Pro";
+
+  /* font sizes */
+  --font-size-77xl: 34px;
+  --font-size-45xl: 64px;
+  --font-size-181xl: 50px;
+  --font-size-13xl: 32px;
+  --font-size-5xl: 24px;
+  --font-size-8xl: 27px;
+  --font-size-91xl: 110px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-41xl: 60px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-snow: #fffcfc;
+  --color-darkkhaki-100: #a98d44;
+  --color-khaki: #e8d285;
+  --color-gainsboro: #d9d9d9;
+  --color-papayawhip: #f7ecd2;
+  --color-tan: #ac8c57;
+  --color-saddlebrown: #5b330f;
+
+  /* Border radiuses */
+  --br-56xl: 75px;
+  --br-181xl: 200px;
+  --br-131xl: 150px;
+  --br-21xl: 40px;
+  --br-11xl: 30px;
+  --br-xl: 20px;
+  --br-26xl: 45px;
+  --br-3xs: 10px;
+  --br-xs: 12px;
+}
+
+.group-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #1f2839;
+    width: 85.56rem;
+    height: 59.41rem;
+  }
+  .join-us {
+    margin: 0;
+    position: absolute;
+    top: 5.5rem;
+    left: 7.57rem;
+    font-size: inherit;
+    line-height: 2.27rem;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 19.44rem;
+    height: 7.02rem;
+    text-shadow: 0 4px 4px #000;
+  }
+  .rectangle-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 85.56rem;
+    height: 59.41rem;
+    text-align: center;
+    font-size: var(--font-size-181xl);
+    color: var(--color-snow);
+    font-family: var(--font-lexend);
+  }
+  .group-inner,
+  .group-item,
+  .group-textarea {
+    border: 0;
+    background-color: white;
+    height: 4.86rem;
+    font-weight: 200;
+    font-family: var(--font-lexend);
+    font-size: var(--font-size-77xl);
+    position: absolute;
+    left: 0;
+  }
+  .group-item {
+    width: 23.34rem;
+    top: 0;
+  }
+  .group-inner,
+  .group-textarea {
+    width: 23.21rem;
+    top: 7.84rem;
+  }
+  .group-textarea {
+    top: 15.68rem;
+  }
+  .group-child1,
+  .group-div {
+    position: absolute;
+    width: 23.34rem;
+  }
+  .group-child1 {
+    border: 0;
+    background-color: white;
+    height: 4.86rem;
+    font-weight: 200;
+    font-family: var(--font-lexend);
+    font-size: var(--font-size-77xl);
+    top: 23.51rem;
+    left: 0;
+  }
+  .group-div {
+    top: 17.02rem;
+    left: 11.15rem;
+    height: 28.38rem;
+  }
+  .rectangle-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-131xl);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 12.98rem;
+    height: 5.2rem;
+  }
+  .sign-up {
+    position: absolute;
+    top: 1.54rem;
+    left: 1.75rem;
+    font-size: var(--font-size-77xl);
+    line-height: 2.27rem;
+    font-family: var(--font-lalezar);
+    color: var(--color-black);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 9.71rem;
+    height: 2.7rem;
+  }
+  .rectangle-group {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 50.46rem;
+    left: 15.88rem;
+    width: 12.98rem;
+    height: 5.2rem;
+  }
+  .bottom-line,
+  .top-line {
+    position: absolute;
+    top: -0.45rem;
+    left: -0.11rem;
+    border-top: 10px solid var(--color-snow);
+    box-sizing: border-box;
+    width: 13.56rem;
+    height: 0.23rem;
+  }
+  .bottom-line {
+    left: 2.32rem;
+    width: 13.47rem;
+  }
+  .or {
+    position: absolute;
+    top: -1.15rem;
+    left: 0;
+    line-height: 2.27rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.57rem;
+    height: 1.15rem;
+  }
+  .bottom-line-parent,
+  .top-line-parent {
+    position: absolute;
+    width: 1.15rem;
+    transform: rotate(-90deg);
+    transform-origin: 0 0;
+  }
+  .bottom-line-parent {
+    top: 0;
+    left: 13.93rem;
+    height: 15.67rem;
+  }
+  .top-line-parent {
+    top: 32.15rem;
+    left: 13.7rem;
+    height: 29.6rem;
+  }
+  .icon-google-1-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-181xl) 0 0 var(--br-181xl);
+    width: 48.8rem;
+    height: 59.41rem;
+    overflow: hidden;
+    background-image: url(./public/frame-2@3x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .rectangle-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-56xl);
+    width: 35.51rem;
+    height: 5.91rem;
+  }
+  .sign-up-with {
+    position: absolute;
+    top: 0.66rem;
+    left: 10.76rem;
+    font-size: var(--font-size-77xl);
+    line-height: 2.27rem;
+    font-family: var(--font-lexend);
+    color: var(--color-black);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20.99rem;
+    height: 4.11rem;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 51.1%;
+    width: 8.07%;
+    top: 20.38%;
+    right: 75.52%;
+    bottom: 28.51%;
+    left: 16.4%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-parent {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    top: 20.08rem;
+    left: 12%;
+    width: 35.51rem;
+    height: 5.91rem;
+  }
+  .icon-google-1 {
+    position: absolute;
+    top: 0.16rem;
+    left: 40.34rem;
+    width: 48.8rem;
+    height: 59.41rem;
+  }
+  .group-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89.14rem;
+    height: 59.57rem;
+    text-align: center;
+    font-size: var(--font-size-45xl);
+    color: var(--color-white);
+    font-family: var(--font-ledger);
+  }
+  .vector-group {
+    position: absolute;
+    top: 250%;
+    left: 65%;
+    width: 35.51rem;
+    height: 5.91rem;
+  }
+  .group-icon {
+    position: absolute;
+    height: 58.53%;
+    width: 9.34%;
+    top: 270%;
+    right: 74.9%;
+    bottom: 24.96%;
+    left: 80%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .icon-sms,
+  .icon-sms-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    position: absolute;
+    width: 35.51rem;
+    height: 5.91rem;
+  }
+  .icon-sms {
+    top: 0;
+    left: 0;
+  }
+  .icon-sms-wrapper {
+    top: 36.74rem;
+    left: 49rem;
+  }
+  .group-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 89.14rem;
+    height: 59.57rem;
+  }
+  .sign-in-lawyer {
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 59.57rem;
+    overflow: hidden;
+  }
+  

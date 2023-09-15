@@ -37,7 +37,7 @@
         </span>
       </p>
       <button class="a4-1-inner"></button>
-      <button class="sign-in">Sign In</button>
+      <button class="sign-in" id="signIn">Sign In</button>
       <div class="rectangle-div"></div>
       <section class="rectangle-section"></section>
       <p class="about-lawcater-lawcater-container">
@@ -143,10 +143,10 @@
     </div>
 
     <script>
-      var logIn = document.getElementById("logIn");
+      var logIn = document.getElementById("signIn");
       if (logIn) {
         logIn.addEventListener("click", function (e) {
-          // Please sync "Frame 3" to the project
+          window.location.href="{%url 'clientlogin'%}"
         });
       }
       </script>

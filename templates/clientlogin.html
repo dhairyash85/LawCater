@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="{% static 'global.css' %}" />
+    <link rel="stylesheet" href="{% static 'clientlogin.css' %}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@200;400;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lalezar:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Ledger:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inika:wght@700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lao Sans Pro:wght@400&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="client-login">
+      <div class="login-client">
+        <img
+          class="login-client-child"
+          alt=""
+          src="{% static 'rectangle-1@2x.png'%}"
+        />
+        <main class="login-client-inner">
+          <div class="login-group">
+            <button class="forgot-password1">Forgot password ?</button>
+            <button class="sign-up3" id="SignUp"><a href="{%url 'signupclient'%}">Sign up!</a></button>
+            <h1 class="login2">Login</h1>
+            <div class="frame-item"></div>
+            <textarea class="username-box-11"> </textarea>
+            <textarea class="password-box-11"> </textarea>
+            <button class="remember-me-check-box1"></button>
+            <div class="remember-me1">Remember me</div>
+            <button class="login-container">
+              <b class="login3">LOGIN</b>
+            </button>
+            <h3 class="welcome-back1">Welcome back!</h3>
+            <h2 class="dont-have-an1">Don’t have an account?</h2>
+          </div>
+        </main>
+      </div>
+    </div>
+    <script>
+      var logIn = document.getElementById("SignUp");
+      if (logIn) {
+        logIn.addEventListener("click", function (e) {
+          window.location.href="{%url 'signupclient'%}"
+        });
+      }
+      </script>
+  </body>
+</html>

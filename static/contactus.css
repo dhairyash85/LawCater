@@ -1,0 +1,172 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-lexend: Lexend;
+  --font-ledger: Ledger;
+  --font-lalezar: Lalezar;
+  --font-inika: Inika;
+  --font-inter: Inter;
+  --font-lato: Lato;
+  --font-lao-sans-pro: "Lao Sans Pro";
+
+  /* font sizes */
+  --font-size-77xl: 96px;
+  --font-size-45xl: 64px;
+  --font-size-181xl: 200px;
+  --font-size-5xl: 24px;
+  --font-size-8xl: 27px;
+  --font-size-91xl: 110px;
+  --font-size-21xl: 40px;
+  --font-size-xl: 20px;
+  --font-size-11xl: 30px;
+  --font-size-41xl: 60px;
+  --font-size-13xl: 32px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-snow: #fffcfc;
+  --color-tan: #ac8c57;
+  --color-gainsboro: #d9d9d9;
+  --color-saddlebrown: #5b330f;
+
+  /* Border radiuses */
+  --br-56xl: 75px;
+  --br-181xl: 200px;
+  --br-131xl: 150px;
+  --br-xl: 20px;
+  --br-26xl: 45px;
+  --br-3xs: 10px;
+  --br-xs: 12px;
+}
+
+.contactbackground-1,
+.desktop-1-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1440px;
+  height: 1024px;
+}
+.desktop-1-child {
+  background-color: var(--color-gainsboro);
+}
+.contactbackground-1 {
+  background-image: url(./contactbackground1@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.contact-us-now,
+.fill-out-the {
+  margin: 0;
+  position: absolute;
+  display: inline-block;
+}
+.contact-us-now {
+  top: 123px;
+  left: 466px;
+  font-size: var(--font-size-45xl);
+  font-weight: 400;
+  font-family: inherit;
+  width: 633px;
+  height: 148px;
+}
+.fill-out-the {
+  top: calc(50% - 213px);
+  left: 275px;
+  width: 971px;
+  height: 79px;
+}
+.desktop-1-inner,
+.desktop-1-item,
+.rectangle-textarea {
+  border: 0;
+  position: absolute;
+  top: 466px;
+  border-radius: var(--br-xl);
+  height: 92px;
+}
+.desktop-1-item {
+  background-color: var(--color-white);
+  left: 146px;
+  width: 517px;
+}
+.desktop-1-inner,
+.rectangle-textarea {
+  background-color: #fbfcff;
+  left: 816px;
+  width: 508px;
+}
+.rectangle-textarea {
+  background-color: #fffbfb;
+  height: 215px;
+  width: 1076px;
+  top: 654px;
+  left: 199px;
+}
+.email,
+.message,
+.name {
+  margin: 0;
+  position: absolute;
+  top: 414px;
+  left: 166px;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  width: 109px;
+  height: 34px;
+}
+.email,
+.message {
+  top: 415px;
+  left: 830px;
+  width: 129px;
+  height: 33px;
+}
+.message {
+  top: 613px;
+  left: 217px;
+  width: 215px;
+  height: 31px;
+}
+.rectangle-button {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #fff8f8;
+  position: absolute;
+  top: 921px;
+  left: 603px;
+  border-radius: 30px;
+  width: 268px;
+  height: 64px;
+}
+.send {
+  position: absolute;
+  top: 931px;
+  left: 694px;
+  font-size: 36px;
+  display: inline-block;
+  font-family: var(--font-inika);
+  color: var(--color-black);
+  width: 136px;
+  height: 44px;
+}
+.desktop-1 {
+  position: relative;
+  background-color: snow;
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
